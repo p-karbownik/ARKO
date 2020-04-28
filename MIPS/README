@@ -1,0 +1,31 @@
+Projekt: Obroty obrazu BMP przy uzyciu przekształcenia afinicznego
+Autor: Patryk Karbownik
+
+Opis:
+
+Program napisany na laboratorium z przedmiotu architektura komputerów [ARKO]. Wczytuje on bitmapę z pliku image.bmp i dokonuje obrót wg. danych podanych przez użytkownika. Wynik zapisuje w pliku result.bmp
+
+Wartości sinusa i cosinusa są przechowywae jako stałoprzecinkowa liczba, w której część ułamkowa składa się z 20 najmłodszych bitów, a pozostałe bity to część całkowita liczby.
+
+Na wejściu dla wartości sinusa i cosinusa należy podać liczbę dziesiętną, która odpowiada binarnemu zapisowi wartosci funkcji.
+
+Przykładowe dane wejściowe
+
+Dane dla kąta 30 stopni
+
+sin -> 0.10000000000000000000 -> 524288
+cos -> 0.11011101101100100011 -> 908067
+
+Dane dla kąta 45 stopni
+
+sin -> 0.10110101000001001000 -> 741448
+cos -> 0.10110101000001001000 -> 741448
+Dane dla kąta 60 stopni
+
+sin -> 0.11011101101100100011 -> 908067
+cos -> 0.10000000000000000000 -> 524288
+
+Dane dla kąta 90 stopni
+
+sin -> 1.00000000000000000000 -> 1048576
+cos -> 0.00000000000000000000 -> 0
